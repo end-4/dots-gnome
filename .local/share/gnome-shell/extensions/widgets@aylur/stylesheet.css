@@ -6,7 +6,6 @@
     margin: 0;
 }
 .level-fill{
-    border-radius: 12px;
     border: none;
     box-shadow: none;
 }
@@ -27,11 +26,11 @@
 .db-user-box{}
 
 /* clock-box */
-.db-clock{ font-size: 2.4em; width: 3em; text-align: center; }
+.db-clock{ font-size: 2.4em; width: 3em; text-align: center;  }
 .db-day{ text-align: center; }
 .db-date{ width: 6em; text-align: center; }
 
-.db-dashboard .message-media-control{ padding: 8px; margin: 0;}
+.db-dashboard .message-media-control{ padding: 8px; margin: 0; }
 .db-dashboard .popup-menu-item{ padding: 8px; margin: 0;}
 
 /* date-menu-mod */
@@ -58,7 +57,8 @@
 .datemenu-levels{ spacing: 8px; }
 
 /* media */
-.media-player{ padding: 16px; spacing: 8px }
+
+.media-player{ padding: 16px; spacing: 8px; }
 .media-player .media-cover-normal{
     width: 180px;
     height: 180px;
@@ -84,9 +84,10 @@
 .power-menu .button{ padding: 0; }
 
 /* workspace-indicator */
-.workspace-indicator StIcon{ margin: 0; font-size: 13pt; }
-.workspace-indicator StLabel{ margin: 0 8px; font-size: 13pt; }
-.workspace-indicator-active{ font-weight: 2000; font-size: 16pt; color: #cba6f7; }
+.workspace-indicator {border: 3px solid #74c7ec; border-radius: 50px;}
+.workspace-indicator StIcon{ margin: 0; font-size: 13pt; font-family: Ubuntu Nerd Font; }
+.workspace-indicator StLabel{ margin: 0 8px; font-size: 13pt; font-family: Ubuntu Nerd Font; }
+.workspace-indicator-active{ font-weight: 2000; font-size: 16pt; color: #74c7ec;}
 .workspace-indicator-inactive{ font-weight: 250; font-size:13pt; }
 
 /* .quick-settings */

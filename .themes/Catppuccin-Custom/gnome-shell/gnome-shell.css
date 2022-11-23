@@ -1,4 +1,4 @@
-/* This stylesheet is generated, DO NOT EDIT */
+/*Catppuccin custom*/
 
 /* Copyright 2009, 2015 Red Hat, Inc.
  *
@@ -2294,7 +2294,8 @@ StEntry StLabel.hint-text,
   transition-duration: 250ms;
   font-size: 10pt;
   margin: 0px 9px 0px;
-  border: 3px solid #cba6f7; /*Top bar border color*/
+  border: 0px solid #cba6f7; /*Top bar border color*/
+  /*border: 3px solid transparent;*/
   border-radius: 50px;
 }
 
@@ -2315,8 +2316,17 @@ StEntry StLabel.hint-text,
   transition-duration: 150ms;
   border-radius: 9999px;
   text-shadow: none;
-  border: 2px solid transparent;
+  border: 3px solid #fab387; border-radius: 50px;
 }
+
+#panel > StBoxLayout:first-child .panel-button { 
+  border: 3px solid #a6e3a1; border-radius: 50px;  /* Left Widgets color goes here*/
+}
+
+#panel > StBoxLayout:last-child .panel-button { 
+  border: 3px solid #cba6f7; border-radius: 50px;  /* Left Widgets color goes here*/
+}
+
 
 #panel .panel-button.clock-display .clock {
   transition-duration: 150ms;
@@ -3760,4 +3770,10 @@ StScrollBar StButton#hhandle:active {
 .popup-sub-menu .openweather-sunset-icon,
 .popup-sub-menu .openweather-build-icon {
   color: rgba(0, 0, 0, 0.87);
+}
+
+#panel .panel-button.clock-display *,
+#panel .panel-button.clock-display {
+  border: 3px solid #f9e2af; /* Clock color (Middle widgets colors) goes here*/
+  border-radius: 50px;
 }
