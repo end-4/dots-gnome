@@ -1,1 +1,3 @@
-Paste the contents of each folder into the right directory specified in the folder name ('|' is used instead of '/')
+
+- Paste the contents in your home folder (excluding "LICENSE" and "README.md" of course)
+- Use gnome-tweaks to select "Catppuccin-Custom" theme
