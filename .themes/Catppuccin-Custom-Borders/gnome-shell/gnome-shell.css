@@ -19,8 +19,7 @@
  * Inc., 51 Franklin St - Fifth Floor, Boston, MA 02110-1301 USA.
  */
 stage {
-  font-family: Ubuntu Nerd Font;
-  font-size: 11pt;
+  font-size: 12pt;
   color: #cdd6f4;
 }
 
@@ -2286,7 +2285,7 @@ StEntry StLabel.hint-text,
 
 /* Top Bar */
 #panel {
-  background-color: rgba(47, 63, 89, 0.8);
+  background-color: rgba(30, 30, 46, 0.9);
   font-weight: bold;
   height: 32px;
   color: #cdd6f4;
@@ -3776,4 +3775,5 @@ StScrollBar StButton#hhandle:active {
 #panel .panel-button.clock-display {
   border: 3px solid #b4befe; /* Clock color (Middle widgets colors) goes here*/
   border-radius: 50px;
+  font-family: Ubuntu Nerd Font; 
 }
