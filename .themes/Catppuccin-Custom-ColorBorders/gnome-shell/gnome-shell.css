@@ -2316,15 +2316,15 @@ StEntry StLabel.hint-text,
   transition-duration: 150ms;
   border-radius: 9999px;
   text-shadow: none;
-  border: 3px solid #fab387; border-radius: 50px;
+  border: 3px solid #89b4fa; border-radius: 50px;
 }
 
 #panel > StBoxLayout:first-child .panel-button { 
-  border: 3px solid #a6e3a1; border-radius: 50px;  /* Left Widgets color goes here*/
+  border: 3px solid #cba6f7; border-radius: 50px;  /* Left Widgets color goes here*/
 }
 
 #panel > StBoxLayout:last-child .panel-button { 
-  border: 3px solid #cba6f7; border-radius: 50px;  /* Left Widgets color goes here*/
+  border: 3px solid #94e2d5; border-radius: 50px;  /* Left Widgets color goes here*/
 }
 
 
@@ -3774,6 +3774,6 @@ StScrollBar StButton#hhandle:active {
 
 #panel .panel-button.clock-display *,
 #panel .panel-button.clock-display {
-  border: 3px solid #f9e2af; /* Clock color (Middle widgets colors) goes here*/
+  border: 3px solid #b4befe; /* Clock color (Middle widgets colors) goes here*/
   border-radius: 50px;
 }

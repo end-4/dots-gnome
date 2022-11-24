@@ -84,10 +84,10 @@
 .power-menu .button{ padding: 0; }
 
 /* workspace-indicator */
-.workspace-indicator {border: 3px solid #74c7ec; border-radius: 50px;}
+.workspace-indicator {border: 3px solid #f5c2e7; border-radius: 50px;}
 .workspace-indicator StIcon{ margin: 0; font-size: 13pt; font-family: Ubuntu Nerd Font; }
 .workspace-indicator StLabel{ margin: 0 8px; font-size: 13pt; font-family: Ubuntu Nerd Font; }
-.workspace-indicator-active{ font-weight: 2000; font-size: 16pt; color: #74c7ec;}
+.workspace-indicator-active{ font-weight: 2000; font-size: 16pt; color: #f5c2e7;}
 .workspace-indicator-inactive{ font-weight: 250; font-size:13pt; }
 
 /* .quick-settings */
