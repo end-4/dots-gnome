@@ -7,5 +7,9 @@
 -=-=-=-=-=-=- About versions -=-=-=-=-=-=-
 - Border: Colored borders of buttons
 - Solid: Colored background colors of buttons
-- OuterBorders: Colored text, whole bar border only
+- OuterBorders: Colored text, whole bar border only (Least buggy btw)
+
+-=-=-=-=-=-=- Problems -=-=-=-=-=-=-
+- All top bar elements on the right having the same color
+- Text padding in Border and Solid variants aren't quite right
 

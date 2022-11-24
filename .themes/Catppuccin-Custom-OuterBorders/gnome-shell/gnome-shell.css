@@ -3775,6 +3775,7 @@ StScrollBar StButton#hhandle:active {
 
 #panel .panel-button.clock-display *,
 #panel .panel-button.clock-display {
+  padding: 0px 0px 0px;
   color: #b4befe;
   border: 0px solid #b4befe; /* Clock color (Middle widgets colors) goes here*/
   border-radius: 50px;
