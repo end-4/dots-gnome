@@ -6,7 +6,7 @@
     margin: 0;
 }
 .level-fill{
-    border: none;
+    background-color: #a4e19f;
     box-shadow: none;
 }
 .usage-level StIcon{ icon-size: 22px; }
